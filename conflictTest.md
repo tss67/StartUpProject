@@ -1,1 +1,1 @@
-Example to test conflicts
+Example to test conflicts - GitHub Addition

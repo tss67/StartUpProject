@@ -8,7 +8,14 @@ The RPG Collaborative Text Application is a cooperative writing experience that 
 
 ### Design
 
-![Mock](voterMockUI.jpg)
+Login Page
+![Mock](LoginPage.PNG)
+
+Reading Page
+![Mock](ReadingPage.PNG)
+
+Story Addition Page
+![Mock](StoryAdditionPage.PNG)
 
 ### Key features
 

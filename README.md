@@ -51,4 +51,4 @@ For this deliverable I built out the structure of my application using HTML.
 - **Images** - An image of a brave adventurer is displayed on the login page to excite and entice the user.
 - **Login** - Input box and submit button for login.
 - **Database** - The story and choices represent data pulled from the database.
-- **WebSocket** - The count of total story pages and choices represent the tally of realtime data entries in the database.
+- **WebSocket** - The count of total story pages and choices on the story edit page represent the count of realtime data entries in the database.

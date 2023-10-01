@@ -44,11 +44,11 @@ Here are the technologies I will use with an explanation of how I will use them:
 ### HTML Deliverable
 For this deliverable I built out the structure of my application using HTML.
 
-HTML pages - Three HTML pages (index.html, story.html, edit.html) that represent the ability to login, read the story, and edit or create new story pages
-Links - The login page automatically links to story reading page. The "+ Add Choice" button links to the story editing page.
-Text - The story and choices will be displayed through text.
-3rd Pary Service - On the story editing page, the buttons to save the text will call a service to save it to the database.
-Images - An image of a brave adventurer is displayed on the login page to excite and entice the user.
-Login - Input box and submit button for login.
-Database - The story and choices represent data pulled from the database.
-WebSocket - The count of total story pages and choices represent the tally of realtime data entries in the database.
+- **HTML pages** - Three HTML pages (index.html, story.html, edit.html) that represent the ability to login, read the story, and edit or create new story pages
+- **Links** - The login page automatically links to story reading page. The "+ Add Choice" button links to the story editing page.
+- **Text** - The story and choices will be displayed through text.
+- **3rd Pary Service** - On the story editing page, the buttons to save the text will call a service to save it to the database.
+- **Images** - An image of a brave adventurer is displayed on the login page to excite and entice the user.
+- **Login** - Input box and submit button for login.
+- **Database** - The story and choices represent data pulled from the database.
+- **WebSocket** - The count of total story pages and choices represent the tally of realtime data entries in the database.

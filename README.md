@@ -52,3 +52,14 @@ For this deliverable I built out the structure of my application using HTML.
 - **Login** - Input box and submit button for login.
 - **Database** - The story and choices represent data pulled from the database.
 - **WebSocket** - The count of total story pages and choices on the story edit page represent the count of realtime data entries in the database.
+
+## CSS deliverable
+
+For this deliverable I properly styled the application into its final appearance.
+
+- **Header, footer, and main content body**
+- **Navigation elements** - Made the header standout and organized
+- **Responsive to window resizing** - Made sure all elements resize depending on screen size
+- **Application elements** - Used appealing elements
+- **Application text content** - Consistent fonts
+- **Application images** - Made images resize

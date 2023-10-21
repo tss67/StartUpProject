@@ -13,29 +13,52 @@
   </head>
   <body>
     <header>
-      <h1>Storyweave</h1>
-
       <!-- Navigation elements -->
-      <nav>
-        <menu>
-          <li><a href="index.html">Login</a></li>
-          <li><a href="index.html">Read The Story</a></li>
-        </menu>
+      <nav class="navbar navbar-expand navbar-light bg-light p-3">
+        <a class="navbar-brand" href="index.html">Storyweave</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Login <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Read The Story</a>
+            </li>
+          </ul>
+        </div>
       </nav>
-      <hr />
-    </header>
 
     <main>
-      <h1>Welcome to Storyweave, An Adventure Awaits!</h1>
-      <img src="AnAdventureAwaits.png" alt="A hero begining his journey into the unknown" width="200px">
-      <p>Login</p>
-      <form method="get" action="story.html">
-        <label for="name">Email</label>
-        <input type="text" id="name" placeholder="Type your email" />
-        <label for="name">Password</label>
-        <input type="text" id="name" placeholder="******" />
-        <button type="submit">Sign In</button>
-      </form>
+      <div class="row justify-content-center">
+        <div class="col-lg-2 py-3">
+          <img src="AnAdventureAwaits.png" class="img-fluid" alt="A hero begining his journey into the unknown">
+        </div>
+      </div>
+      <body class="text-center">
+        <div class="container">
+          <div class="row justify-content-center pb-5">
+            <div class="col-md-6">
+              <h3 style="text-align:center">Welcome to Storyweave, An Adventure Awaits!</h1>
+                <div class="row justify-content-center">
+                  <form class="form-signin" method="get" action="story.html">
+                    <div class="pt-3">
+                      <label for="email">Email</label>
+                      <input type="email" class="form-control" id="email" placeholder="Type your email">
+                    </div>
+                    <div class="py-3">
+                      <label for="name">Password</label>
+                      <input type="password" class="form-control" id="name" placeholder="********">
+                    </div>
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign In</button>
+                  </form>
+                </div>
+            </div>
+          </div>
+        </div>
+      </body>
     </main>
 
     <footer>

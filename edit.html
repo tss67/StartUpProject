@@ -35,37 +35,48 @@
 
     <main>
       <div class="row justify-content-center my-4">
-        <div class="col-md-8">
+        <div class="col-md-8 col-11">
           <h1 class="pt-3" style="text-align:center">Choice #3 from Chapter 1</h1>
             
-
               <form method="get" action="story.html">
                 <div class="row justify-content-start pt-5">
                   <div class="input-group mb-3">
-                    <span class="input-group-text" id="basic-addon1">Choice Text</span>
                     <input type="text" class="form-control" placeholder="Choice Text" aria-label="Username" aria-describedby="basic-addon1">
                   </div>
                 </div>
 
                 <div class="row justify-content-start py-2">
                   <div id="storytext" class="input-group">
-                    <span class="input-group-text">Continue the story here...</span>
-                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                    <textarea class="form-control" aria-label="With textarea" placeholder="Continue the story here..."></textarea>
                   </div>
                 </div>
+
                 <button class="btn btn-lg btn-secondary btn-block my-3" type="submit">Save</button>
               </form>
 
-            
+              <!--Database Information-->
+              <div class="row">
+                <div>
+                  Total Pages So Far: 1
+                </div>
+                <div>
+                  Total Choices So Far: 2
+                </div>
+              </div>
+
         </div>
       </div>
     </main>
 
     <footer>
-      <hr />
-      <span class="text-reset">Created by Taylor Smith</span>
-      <br />
-      <a href="https://github.com/tss67/StartUpProject">GitHub</a>
+      <div class="row text-center justify-content-center">
+        <hr />
+        <span class="text-reset">Created by Taylor Smith</span>
+        <br />
+        <div class="col-11">
+          <a href="https://github.com/tss67/StartUpProject">GitHub</a>
+        </div>
+      </div>
     </footer>
   </body>
 </html>

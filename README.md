@@ -63,3 +63,12 @@ For this deliverable I properly styled the application into its final appearance
 - **Application elements** - Used appealing elements
 - **Application text content** - Consistent fonts
 - **Application images** - Made images resize
+
+## JavaScript deliverable
+
+For this deliverable I implemented JavaScript to prepare for future technologies.
+
+- **login** - Now pressing enter also triggers login credential submission. When you submit your credentials you will only be taken to the voting page if the email and password field are filled out.
+- **database** - Stored custom choices/story passages as well as the total page.choice values in local stoage. This will be replaced with the database data later.
+- **WebSocket** - I used the increaseCount() function to periodically increase a random page/choice count. This will be replaced with WebSocket messages later.
+- **application logic** - Synamically add choice buttons and update story page contents based on user input

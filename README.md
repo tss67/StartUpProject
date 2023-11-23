@@ -68,7 +68,7 @@ For this deliverable I properly styled the application into its final appearance
 
 For this deliverable I implemented JavaScript to prepare for future technologies.
 
-- **login** - Now pressing enter also triggers login credential submission. When you submit your credentials you will only be taken to the voting page if the email and password field are filled out.
+- **login** - Now entirely handled by javascript. Pressing the login button or the enter key triggers login credential submission. If the email and password fields are filled out, your credentials are stoted in local storage (temporary) and you are taken to the story page.
 - **database** - Stored custom choices/story passages as well as the total page.choice values in local stoage. This will be replaced with the database data later.
 - **WebSocket** - I used the increaseCount() function to periodically increase a random page/choice count. This will be replaced with WebSocket messages later.
-- **application logic** - Synamically add choice buttons and update story page contents based on user input
+- **application logic** - Dynamically add choice buttons and update story page contents based on user input

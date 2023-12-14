@@ -135,3 +135,7 @@ submitDataEl.addEventListener('click', function (event) {
 | getItem(name)        | Gets a named item's value from local storage |
 | removeItem(name)     | Removes a named item from local storage      |
 | clear()              | Clears all items in local storage            |
+
+## NEXT
+
+

@@ -74,3 +74,12 @@ For this deliverable I implemented JavaScript to prepare for future technologies
 - **application logic** - Transitioning from the edit back to the story page is handled by javascript. Also, entering the edit page will autofill the story and story name sections, allowing you to continue from your previous save. If the choice or story text field is not filled out, the user will not continue to the next page upon save.
 
 ## 
+
+## Service devliverable
+
+- **Create Account**
+- **Login**
+- **Logout**
+- **Get User**
+- **Get Story/Choices**
+- **Save Story/Choices**

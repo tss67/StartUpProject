@@ -68,9 +68,9 @@ For this deliverable I properly styled the application into its final appearance
 
 For this deliverable I implemented JavaScript to prepare for future technologies.
 
-- **signin** - Now entirely handled by javascript. Pressing the login button or the enter key triggers login credential submission. If the email and password fields are filled out, your credentials are stored in local storage (temporary) and you are taken to the story page.
+- **signin** - Now entirely handled by javascript. Pressing the login button or the enter key triggers login credential submission. If the email and password fields are filled out, your credentials are stored in local storage (temporary) and you are taken to the story page. If the email or password field is not filled out, the user will not continue to the next page.
 - **database** - Stored custom choices/story passages as well as the total page/choice values in local stoage. This will be replaced with the database data later.
-- **WebSocket** - I used the increaseCounts() function to periodically increase a random page/choice count. This will be replaced with WebSocket messages later.
-- **application logic** - Transitioning from the edit back to the story page is handled by javascript. Also, entering the edit page will autofill the story and story name sections, allowing you to continue from your previous save.
+- **WebSocket** - I used the increaseCounts() function to increase the page/choice count whenever leaving the edit.html page. This will be replaced with WebSocket messages later.
+- **application logic** - Transitioning from the edit back to the story page is handled by javascript. Also, entering the edit page will autofill the story and story name sections, allowing you to continue from your previous save. If the choice or story text field is not filled out, the user will not continue to the next page upon save.
 
 ## 

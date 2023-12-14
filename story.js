@@ -8,6 +8,8 @@ function initializeStory() {
 
     storyEl.value = storedStory;
     storyNameEl.value = storedStoryName;
+
+    initializeCounts();
 }
 
 function updateStory() {
@@ -17,6 +19,8 @@ function updateStory() {
     localStorage.setItem("story_name", storyNameEl.value);
 
     if(!(storyEl.value.trim().length === 0 ||  storyNameEl.value.trim().length === 0)) {
+        increaseCount();
+
         window.location.href = "story.html";
     }
 }

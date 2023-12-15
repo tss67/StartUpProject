@@ -17,8 +17,8 @@ function initializeCounts() {
     const pageCountEl = document.querySelector('#pageCount');
     const choiceCountEl = document.querySelector('#choiceCount');
 
-    pageCountEl.innerHTML =  pageCount
-    choiceCountEl.innerHTML =  choiceCount
+    pageCountEl.innerHTML =  "Total Pages So Far: " + pageCount
+    choiceCountEl.innerHTML =  "Total Choices So Far: " + choiceCount
 }
 
 function increaseCount() {
@@ -33,3 +33,25 @@ function increaseCount() {
     localStorage.setItem("page_count", pageCount);
     localStorage.setItem("choice_count", choiceCount);
 }
+
+//Third Party Endpoint
+function displayJoke(data) {
+    fetch('https://icanhazdadjoke.com/', {
+        headers: {
+            'Accept': 'application/json'
+        }
+    })
+    .then((response) => response.json())
+    .then((data) => {
+        const containerEl = document.querySelector('#joke');
+
+        const quoteEl = document.createElement('p');
+        quoteEl.classList.add('joke');
+
+        quoteEl.textContent = data.joke;
+
+        containerEl.appendChild(quoteEl);
+    });
+}
+
+displayJoke()

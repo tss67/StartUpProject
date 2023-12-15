@@ -78,6 +78,6 @@ For this deliverable I implemented JavaScript to prepare for future technologies
 For this deliverable I added backend endpoints that revieve and return page and choice count totals.
 - **Node.js/Express HTTP service** - I did this
 - **Static middleware for frontend** - I did this
-- **Calls to third party endpoints** - I did this with the 'give-me-a-joke' endpoint
+- **Calls to third party endpoints** - I did this with the https://icanhazdadjoke.com/ endpoint
 - **Backend service endpoints** - Placeholders for login that stores the current user on the server. Endpoints for count totals.
 - **Frontend calls service endpoints** - I did this using the fetch function

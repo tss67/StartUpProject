@@ -11,13 +11,6 @@ app.use(express.json());
 app.use(express.static('public'));
 
 
-
-//Third party endpoints
-const giveMeAJoke = require('give-me-a-joke');
-giveMeAJoke.getRandomDadJoke((joke) => {
-  console.log(joke);
-});
-
 /*
 // Router for service endpoints
 var apiRouter = express.Router();

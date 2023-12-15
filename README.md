@@ -53,7 +53,7 @@ For this deliverable I built out the structure of my application using HTML.
 - **Database** - The story and choices represent data pulled from the database.
 - **WebSocket** - The count of total story pages and choices on the story edit page represent the count of realtime data entries in the database.
 
-## CSS deliverable
+### CSS deliverable
 
 For this deliverable I properly styled the application into its final appearance.
 
@@ -64,7 +64,7 @@ For this deliverable I properly styled the application into its final appearance
 - **Application text content** - Consistent fonts
 - **Application images** - Made images resize
 
-## JavaScript deliverable
+### JavaScript deliverable
 
 For this deliverable I implemented JavaScript to prepare for future technologies.
 
@@ -73,13 +73,11 @@ For this deliverable I implemented JavaScript to prepare for future technologies
 - **WebSocket** - I used the increaseCounts() function to increase the page/choice count whenever leaving the edit.html page. This will be replaced with WebSocket messages later.
 - **application logic** - Transitioning from the edit back to the story page is handled by javascript. Also, entering the edit page will autofill the story and story name sections, allowing you to continue from your previous save. If the choice or story text field is not filled out, the user will not continue to the next page upon save.
 
-## 
+### Service devliverable
 
-## Service devliverable
-
-- **Create Account**
-- **Login**
-- **Logout**
-- **Get User**
-- **Get Story/Choices**
-- **Save Story/Choices**
+For this deliverable I added backend endpoints that revieve and return page and choice count totals.
+- **Node.js/Express HTTP service** - I did this
+- **Static middleware for frontend** - I did this
+- **Calls to third party endpoints** - I did this with the 'give-me-a-joke' endpoint
+- **Backend service endpoints** - Placeholders for login that stores the current user on the server. Endpoints for count totals.
+- **Frontend calls service endpoints** - I did this using the fetch function
